@@ -1,4 +1,5 @@
 def main(n):
+    n=abs(n)
     """
     Given a argument called 'n' type of int , return its absolute value
     Args:
@@ -7,4 +8,5 @@ def main(n):
         absolute value: int
     """
 
-    return 
+    return n
+print(main(-8))
